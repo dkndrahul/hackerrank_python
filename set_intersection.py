@@ -1,0 +1,5 @@
+english_students = int(input())
+english_stroll = set(map(int, input().split()))
+french_students = int(input())
+french_stroll = set(map(int, input().split()))
+print(len(english_stroll.intersection(french_stroll)))
